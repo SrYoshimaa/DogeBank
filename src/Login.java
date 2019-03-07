@@ -8,14 +8,14 @@ public class Login {
     public boolean Entrou(){
         int Tentativa;
 
-        System.out.println("Digite sua senha: ");
+        MessageBox.Show("Digite sua senha: ");
 
         Tentativa = in.nextInt();
 
         if(ChecaSenha(Tentativa)){
             return true;
         }else{
-            System.out.println("Sua senha está incorreta, refaça a operação.\n");
+            MessageBox.Show("Sua senha está incorreta, refaça a operação.\n");
             return false;
         }
     }

@@ -91,9 +91,9 @@ public class Transacao {
                 }
                 break;
 
-            case 4:
-                MessageBox.Show("Opção invalida. Tire e coloque novamente o cartão.");
-
+            default:
+                MessageBox.Show("Opção invalida.\n");
+                iniTransacao();
                 break;
 
         }
