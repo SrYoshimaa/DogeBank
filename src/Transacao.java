@@ -7,6 +7,7 @@ public class Transacao {
     public static int novaTransacao;
     public static Login lg = new Login();
     public String Creditos = "";
+
     public void Start(){
 
         MessageBox.Show("            ░░░░░░░░░▄░░░░░░░░░░░░░░▄░░░░");
@@ -31,10 +32,7 @@ public class Transacao {
         MessageBox.Show("");
         MessageBox.Show(Creditos+"\n");
         MessageBox.Show("Seja bem vindo ao DogeBank\n");
-
     }
-
-
 
     public static void iniTransacao(){
         in = new Scanner(System.in);
@@ -65,7 +63,6 @@ public class Transacao {
                 }else{
                     iniTransacao();
                 }
-
                 break;
 
             case 2:
@@ -79,7 +76,6 @@ public class Transacao {
                 }else{
                     iniTransacao();
                 }
-
                 break;
 
             case 3:
